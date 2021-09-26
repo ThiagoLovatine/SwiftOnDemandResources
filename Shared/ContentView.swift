@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct ContentView: View {
+    init(){
+       DownloadResource().start(resourceTag: "MyIcons")
+    }
     var body: some View {
         Text("Hello, world!")
             .padding()

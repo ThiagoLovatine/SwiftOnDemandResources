@@ -17,6 +17,10 @@
 		AF4217CA2700D626005F86B1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4217A02700D625005F86B1 /* ContentView.swift */; };
 		AF4217CB2700D626005F86B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4217A12700D626005F86B1 /* Assets.xcassets */; };
 		AF4217CC2700D626005F86B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4217A12700D626005F86B1 /* Assets.xcassets */; };
+		AF4217DC2700DAD7005F86B1 /* OnDemandResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4217DB2700DAD7005F86B1 /* OnDemandResources.swift */; };
+		AF4217DD2700DAD7005F86B1 /* OnDemandResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4217DB2700DAD7005F86B1 /* OnDemandResources.swift */; };
+		AF4217DF2700DCC9005F86B1 /* DownloadResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4217DE2700DCC9005F86B1 /* DownloadResource.swift */; };
+		AF4217E02700DCC9005F86B1 /* DownloadResource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4217DE2700DCC9005F86B1 /* DownloadResource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,8 @@
 		AF4217BF2700D626005F86B1 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4217C32700D626005F86B1 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		AF4217C52700D626005F86B1 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		AF4217DB2700DAD7005F86B1 /* OnDemandResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnDemandResources.swift; sourceTree = "<group>"; };
+		AF4217DE2700DCC9005F86B1 /* DownloadResource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadResource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +106,8 @@
 				AF42179F2700D625005F86B1 /* OnDemand_resourcesApp.swift */,
 				AF4217A02700D625005F86B1 /* ContentView.swift */,
 				AF4217A12700D626005F86B1 /* Assets.xcassets */,
+				AF4217DB2700DAD7005F86B1 /* OnDemandResources.swift */,
+				AF4217DE2700DCC9005F86B1 /* DownloadResource.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -221,6 +229,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					MyIcons,
+				);
 				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
@@ -299,6 +310,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4217DC2700DAD7005F86B1 /* OnDemandResources.swift in Sources */,
+				AF4217DF2700DCC9005F86B1 /* DownloadResource.swift in Sources */,
 				AF4217C92700D626005F86B1 /* ContentView.swift in Sources */,
 				AF4217C72700D626005F86B1 /* OnDemand_resourcesApp.swift in Sources */,
 			);
@@ -308,6 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF4217DD2700DAD7005F86B1 /* OnDemandResources.swift in Sources */,
+				AF4217E02700DCC9005F86B1 /* DownloadResource.swift in Sources */,
 				AF4217CA2700D626005F86B1 /* ContentView.swift in Sources */,
 				AF4217C82700D626005F86B1 /* OnDemand_resourcesApp.swift in Sources */,
 			);
